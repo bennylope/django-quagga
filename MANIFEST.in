@@ -1,4 +1,7 @@
-include README.md AUTHORS LICENSE
+include AUTHORS LICENSE
+include README.rst HISTORY.rst requirements.txt
 recursive-include zebra/templates/zebra *
 recursive-include zebra/static/zebra *
 recursive-include zebra_sample_project/marty/templates/marty *
+include zebra_sample_project/requirements.txt
+recursive-include docs *.rst
